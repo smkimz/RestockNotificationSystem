@@ -1,0 +1,7 @@
+package com.hanghae.restocknotificationsystem.notification.productUserNotification.repository;
+
+import com.hanghae.restocknotificationsystem.notification.productUserNotification.domain.ProductUserNotificationHistory;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProductUserNotificationHistoryRepository extends JpaRepository<ProductUserNotificationHistory, Long> {
+}
